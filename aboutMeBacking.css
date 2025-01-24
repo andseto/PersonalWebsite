@@ -142,6 +142,42 @@ body
     line-height: 1.8; /* Default line spacing within a paragraph */
 }
 
+@media screen and (max-width: 1200px) {
+    .box-2 {
+        width: 100%; /* Allow the container to take full width */
+    }
+
+    .containers {
+        flex-direction: column; /* Stack the layout vertically */
+    }
+
+    .box-1,
+    .box-3 {
+        display: none; /* Hide the side boxes on smaller screens */
+    }
+
+    .box-2 .upper-half img {
+        height: auto; /* Adjust height dynamically */
+    }
+
+    .box-2 .upper-half .image-overlay {
+        font-size: 20px; /* Adjust overlay text size */
+    }
+
+    .box-2 .lower-half .header-bio {
+        font-size: 30px; /* Adjust header bio size */
+    }
+
+    .box-2 .words {
+        padding: 0 20px; /* Reduce padding for smaller screens */
+    }
+
+    .box-2 .words p {
+        font-size: 14px; /* Adjust paragraph font size */
+        line-height: 1.5; /* Adjust line spacing */
+    }
+}
+
 .box-3
 {
     width: 25%;;

@@ -156,3 +156,54 @@ body {
     font-size: 10px;
     word-spacing: 5px;
 }
+
+@media screen and (max-width: 1200px) {
+    .header-left {
+        margin-left: 20px; /* Reduce margin for smaller screens */
+        font-size: 18px; /* Adjust font size */
+    }
+
+    .header-right {
+        margin-right: 20px; /* Reduce margin for smaller screens */
+        gap: 15px; /* Reduce spacing between navigation links */
+    }
+
+    .header-right a {
+        font-size: 14px; /* Reduce font size for links */
+    }
+
+    .containers {
+        padding: 0 10px; /* Add padding to containers for better spacing */
+    }
+
+    .container-intro,
+    .container-experience,
+    .container-resume,
+    .container-contact {
+        height: auto; /* Allow containers to adjust height dynamically */
+        padding: 20px 10px; /* Adjust padding for better spacing */
+    }
+
+    .container-intro h1,
+    .container-experience h1,
+    .container-resume h1,
+    .container-contact h1 {
+        font-size: 20px; /* Adjust heading size */
+    }
+
+    .container-intro p,
+    .container-experience p,
+    .container-contact p {
+        font-size: 14px; /* Adjust paragraph size */
+        text-align: center; /* Center align text for better readability */
+    }
+
+    .container-resume a {
+        font-size: 16px; /* Adjust link size for smaller screens */
+    }
+
+    .footer {
+        font-size: 12px; /* Adjust footer text size */
+        padding: 10px; /* Add padding for smaller screens */
+    }
+}
